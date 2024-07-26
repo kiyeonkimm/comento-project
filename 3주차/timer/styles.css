@@ -1,0 +1,43 @@
+body {
+  background-color: #ffe2e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Pretendard", sans-serif;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#clock {
+  font-size: 2em;
+  margin: 5 20px 20 20;
+}
+
+img[alt="clockimg"] {
+  width: 25px;
+  height: 25px;
+}
+
+img[alt="batteryimg"] {
+  width: 25px;
+  height: 25px;
+}
+
+#battery {
+  font-size: 1.5em;
+
+  margin: 20px;
+}
+
+#alarms {
+  margin: 20px;
+}
+
+.alarm {
+  margin: 5px 0;
+}
+
+#message {
+  font-size: 1.2em;
+  margin-top: 20px;
+}

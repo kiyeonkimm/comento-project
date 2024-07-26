@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="assets/clock.png" alt="clockimg" />
+    <div id="clock">--:--:--</div>
+
+    <div id="battery">
+      <img src="assets/battery.png" alt="batteryimg" />
+      배터리: 100%
+    </div>
+    <div id="alarmList">알람목록</div>
+    <div id="alarms">
+      <h3>알람</h3>
+      <input type="time" id="alarmTime" />
+      <button onclick="setAlarm()">추가</button>
+    </div>
+    <div id="message"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
