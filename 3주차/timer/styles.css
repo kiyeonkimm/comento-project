@@ -5,39 +5,79 @@ body {
   align-items: center;
   font-family: "Pretendard", sans-serif;
   height: 100vh;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #clock {
   font-size: 2em;
-  margin: 5 20px 20 20;
+  margin: 10px 20px 20px 20px;
+  border-radius: 2px;
 }
 
-img[alt="clockimg"] {
+img[alt="Clock"] {
   width: 25px;
   height: 25px;
 }
 
-img[alt="batteryimg"] {
+img[alt="Battery"] {
   width: 25px;
   height: 25px;
+}
+
+#batteryList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #battery {
   font-size: 1.5em;
+  margin: 20px 3px 20px 3px;
+}
 
-  margin: 20px;
+#charge {
+  padding: 5px 10px;
+  background-color: #ffc7c7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 #alarms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px;
+  gap: 13px;
+  font-size: 1.5em;
+}
+
+#alarmList {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .alarm {
   margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #ffc7c7;
+  color: white;
+  font-size: 20px;
 }
 
-#message {
-  font-size: 1.2em;
-  margin-top: 20px;
+#addAlarm {
+  padding: 5px 10px;
+  background-color: #ffc7c7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 5px;
 }
